@@ -1,52 +1,34 @@
 
 
-The Routing system is the cornerstone of this framework.
+The Routing system is the cornerstone of this framework. </br></br>
 
-Like stated in the => get started page, using the htaccess file, all requests are redirected to your root folder.
+Like stated in the <a href="#">get started </a> section, using the htaccess file, all requests are redirected to your root folder. </br></br>
 
-Here is how it works : 
-
-
-   Let's imagine you want to access a welcome page.
-
-   Let's create a controller called : Welcome Controller.
-
-   //controllers/WelcomeController.php
+<h4>Here is how it works : </h4> </br>
 
 
-  class WelcomeController()  
-  {
-  	public function goToWelcomePage() : Response
-  	{
-  		return $this->render("welcome");
+   Let's imagine you want to access a page you call "welcome page". </br></br>
 
-  	}
+   Let's create a controller called : Welcome Controller. </br> </br>
 
-  }
+   <img src="public/assets/img/routing1.PNG"> </br>
+
 
   Let's also create a very simple welcome template.
 
-  We go over templates in details here : =>templates
+  (We go over templates in details <a href="#">over there</a>) :  </br>
 
      
-  //templates/welcome.php
-
-   
-   <h1>Welcome on my app</h1>
-
-   
-  
-  Now, here is how the rooting will happen :
-
-  //Routes.php
+  Now, here is how the rooting will happen :  </br>
 
 
-  All requests are actually sent to "index.php" file. 
+
+  You need to register your routes in the routeArray, that you can find in the "Routes.php" file (for now, the array is totally empty).   </br>
 
 
-  You need to register your routes in the routeArray, that you can find in the "Routes.php" file (for now, the array is totally empty).  
+   <img src="public/assets/img/routing2.PNG"> </br>
 
-  $map = [];
+
 
   Let's create our first route in it.
 
