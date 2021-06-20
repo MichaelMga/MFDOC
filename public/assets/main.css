@@ -7,18 +7,17 @@
 
 
 
-
 button{
     cursor:pointer;
 }
 
 
-#navBar{
 
+#navBar{
     position:fixed;
     top:0;
     left:0;
-    width: 10%;
+    width: 15%;
     height: 100%;
     background:rgb(31, 30, 30);
     display: flex;
@@ -28,12 +27,80 @@ button{
 }
 
 
+.navLink{
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navBarA{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.navBarText{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:5.5%;
+}
+
+.navbarImgContainer{
+    height:100%;
+    width: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.startImg{
+    height: auto;
+    width: 60%;
+    margin-left: 15%;
+}
+
+
+.superImg{
+    height: auto;
+    width: 35%;
+    margin-left: 15%;
+
+
+}
+
+.routingImg{
+    height: auto;
+    width: 45.5%;
+    margin-left: 7.5%;
+
+}
+
+
+.controllerImg{
+    height: auto;
+    width: 35%;
+    margin-left: 10%;
+
+}
+
+
+
+
 
 main{
- position:absolute;
- top:0%;
- left:11%;
- height: 90%;
- width: 100%;
- font-family: 'Marcellus', serif;
-}
+    position:absolute;
+    top:0%;
+    left:15.5%;
+    height: 90%;
+    width: 84.5%;
+    font-family: 'Marcellus', serif;
+   }
+

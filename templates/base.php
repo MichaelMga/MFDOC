@@ -13,16 +13,14 @@
      
        <div id="navBar">
 
-         <a href="<?php echo rootUrl?>getStarted"><button>get started</button></a>
-         <a href="<?php echo rootUrl?>routing"><button>Routing</button></a>          
-         <a href="<?php echo rootUrl?>superOrm"><button>SuperOrm</button></a>          
-         <a href="<?php echo rootUrl?>controllers"><button>controllers</button></a>  
-         <a href="<?php echo rootUrl?>controllers"><button>Repository</button></a>    
-              
-   
+          <div class='navBarA'> <div class="navbarImgContainer"><a href="#"><img class="startImg" src="public/assets/img/start.png"></a></div> <div class='navBarText'><a class="navLink" href="<?php echo rootUrl?>getStarted">Get started</a></div></div>
+          <div class='navBarA'> <div class="navbarImgContainer"><a href="#"><img class="routingImg" src="public/assets/img/routing.png"></a></div> <div class='navBarText'><a class="navLink" href="<?php echo rootUrl?>getStarted">Routing</a></div></div>
+          <div class='navBarA'> <div class="navbarImgContainer"><a href="#"><img class="superImg" src="public/assets/img/super.png"></a></div> <div class='navBarText'><a class="navLink" href="<?php echo rootUrl?>superOrm">Super ORM</a></div></div>
+          <div class='navBarA'> <div class="navbarImgContainer"><a href="#"><img class="controllerImg" src="public/assets/img/controller.png"></a></div> <div class='navBarText'><a class="navLink" href="<?php echo rootUrl?>controllers">Controllers</a></div></div>
+     
        </div>
-    </header>
 
+    </header>
 
    <main>
    

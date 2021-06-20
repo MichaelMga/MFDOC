@@ -1,6 +1,4 @@
-
-
- </br></br>
+ </br>
 
 <h2>Install the framework</h2> </br></br>
 

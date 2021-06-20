@@ -2,42 +2,44 @@
 
  </br>
 
-   Of course, to understand how to use controllers, you need to understand how the routing system functions. </br> </br>
+
+  This framework being based on an MVC architecture, controllers are of course the cornerstone of our structure. </br> 
+
+   Of course, to understand how to use controllers, </br> </br>
 
  
-   Here, we'll consider you know how to call a controller
+   Here, we'll consider you took notice of the <a href="#">routing</a> section, and you know how to call a controller in your application.  </br> </br>
+
+
+   Every controller extend the AbstractController class. It gives those a set of built in functions.  </br> </br>
 
 
 
 
-
-   ArticleController extends AbstractClass{
-
-
-    }
+<p>Controllers come with a set of built in functions</p> </br>
 
 
-
-<p>Controllers have a set of built in functions</p>
-
-
-<p>Let's take an example : </p>
+<p>Let's take an example : </p> </br>
 
 
  </br>
  </br>
 
 
- Let's say you want to render an article :
-
+<h3>Rendering a page</h3>
+ 
  </br>
  </br>
 
-  First build a folder "articles" in the templates folder.
+ Let's say you want to render an article. </br>
+ </br>
 
-  </br>
+  First build a folder "articles" in the templates folder.</br>
+ 
+ </br>
+ </br>
 
-  Build a file show.php in it.
+  Then, build a file called "show.php" in this folder.
 
   </br>
 
@@ -49,9 +51,6 @@
 
 
 
-  templates/articles/show.php </br>
-
-
   </br>
   </br>
 
@@ -59,20 +58,21 @@
   Now, write a few things in it :  </br>
 
 
-   <h1>I'm an article template</h1>
+
+  <img src="public/assets/img/controllers1.PNG">   </br>  </br>
 
 
-
- ArticleController extends AbstractClass{
-
-   public function renderArticle(){
-
-       return $this->render("articles/show");
-   }
-}
 
   </br>
   </br>
+
+  Now, let's build a method dedicated to render an article : </br>
+
+
+
+
+  <img src="public/assets/img/controllers2.PNG">   </br>  </br>
+
 
   Now, notice we used a built in function called "render", coming from the AbstractController.
 
