@@ -64,7 +64,7 @@
 
 
 
-  <img class="docImg" src="public/assets/img/controllers1.PNG">   </br>  </br>
+  <img class="controllerImgSmall2" src="public/assets/img/controllers1.PNG">   </br>  </br>
 
 
 
@@ -76,7 +76,7 @@
 
 
 
-  <img class="docImg" src="public/assets/img/controllers2.PNG">   </br>  </br>
+  <img class="controllerImgSmall2" src="public/assets/img/controllers2.PNG">   </br>  </br>
 
 
   Now, notice we used a built in function called "render", coming from the AbstractController.
@@ -98,7 +98,7 @@
   </br>
 
 
-  <img class="docImg" src="public/assets/img/controllers3.PNG">   </br>  </br>
+  <img class="controllerImgMedium" src="public/assets/img/controllers3.PNG">   </br>  </br>
 
 
 
@@ -112,7 +112,7 @@ Now, when you'll render your template : </br>
 
 
 
-<img class="docImgSmall" src="public/assets/img/controllers4.PNG">   </br>  </br>
+<img class="controllerImgSmall" src="public/assets/img/controllers4.PNG">   </br>  </br>
 
 
 
@@ -136,7 +136,7 @@ Now, when you'll render your template : </br>
 
    You can reach the superOrm class anywhere you want within your function :   </br> </br>
 
-   <img class="docImgSmall" src="public/assets/img/controllers5.PNG">   </br>  </br>
+   <img class="controllerImgSmall" src="public/assets/img/controllers5.PNG">   </br>  </br>
 
 
 

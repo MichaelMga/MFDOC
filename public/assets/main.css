@@ -38,6 +38,15 @@ button{
 
 }
 
+#navBarLogo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
 
 #logoImg{
 
@@ -138,16 +147,41 @@ main{
 
    .docImg{
 
-     width: 45%;
+     width: 40%;
      height: auto;
    }
 
    .docImgSmall{
 
-    width: 30%;
+    width: 20%;
     height: auto;
 
    }
+
+
+   .controllerImgSmall{
+
+    width: 30%;
+    height: auto;
+   }
+
+   .controllerImgSmall2{
+
+    width: 35%;
+    height: auto;
+
+
+   }
+
+
+   .controllerImgMedium{
+
+    width: 55%;
+    height: auto;
+
+   }
+
+
 
 
 
@@ -185,7 +219,7 @@ main{
      }
 
      .docImg{
-        width: 95%;
+        width: 100%;
         height: auto;
       }
 
@@ -234,6 +268,28 @@ main{
         width: 57.5%;
         margin-left: 15%;
     }
+
+    .controllerImgSmall{
+
+        width: 45%;
+        height: auto;
+       }
+    
+       .controllerImgSmall2{
+    
+        width: 60%;
+        height: auto;
+    
+    
+       }
+    
+    
+       .controllerImgMedium{
+    
+        width: 75%;
+        height: auto;
+    
+       }
    
 
 

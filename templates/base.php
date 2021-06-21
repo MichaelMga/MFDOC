@@ -16,7 +16,7 @@
 
           <div id="navBarLogo"> 
                
-          <img id="logoImg" src="public/assets/img/m.png" alt="">
+          <a href="<?php echo rootUrl?>"><img id="logoImg" src="public/assets/img/m.png" alt="">
 
           </div>
 

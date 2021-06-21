@@ -13,7 +13,7 @@ Like stated in the <a href="#">get started </a> section, using the htaccess file
 
    Let's create a controller called : Welcome Controller. </br> </br>
 
-   <img class="docImgSmall" src="public/assets/img/routing1.PNG"> </br>
+   <img class="docImg" src="public/assets/img/routing1.PNG"> </br>
 
 
   Let's also create a very simple welcome template.
