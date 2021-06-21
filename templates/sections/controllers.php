@@ -1,3 +1,8 @@
+ </br>
+
+ <div class="textBlock">
+
+
 <h1>Controllers</h1>
 
  </br>
@@ -59,7 +64,7 @@
 
 
 
-  <img src="public/assets/img/controllers1.PNG">   </br>  </br>
+  <img class="docImg" src="public/assets/img/controllers1.PNG">   </br>  </br>
 
 
 
@@ -71,7 +76,7 @@
 
 
 
-  <img src="public/assets/img/controllers2.PNG">   </br>  </br>
+  <img class="docImg" src="public/assets/img/controllers2.PNG">   </br>  </br>
 
 
   Now, notice we used a built in function called "render", coming from the AbstractController.
@@ -79,17 +84,13 @@
   </br>
   </br>
 
-  Now, when you call the function renderPage("article/show"), it renders :
+  Now, when you call the function renderPage("article/show"), it renders the file <b>"templates/show.php".</b>
 
+  </br>
+  </br>
+  
 
-    //templates/show.php
-
-
-
-    Temp^lates
-
-
- You can logically sees how it works there. However, there is another handy tool coming with this function.
+ There is another handy tool coming with the  <b>render()</b> function.
 
  You can actually pass it a bunch of variables, directly usable into the templates.   
  
@@ -97,17 +98,8 @@
   </br>
 
 
-  templates/articles/show.php </br>
+  <img class="docImg" src="public/assets/img/controllers3.PNG">   </br>  </br>
 
- ArticleController extends AbstractClass{
-
-   public function renderArticle(){
-
-       $var = "I'm a handy variable";
-
-       return $this->render("articles/show", ["myVar" => $var]);
-   }
-}
 
 
 </br>
@@ -120,42 +112,8 @@ Now, when you'll render your template : </br>
 
 
 
-ArticleController extends AbstractClass{
+<img class="docImgSmall" src="public/assets/img/controllers4.PNG">   </br>  </br>
 
-public function renderArticle(){
-
-    $var = "I'm a handy variable";
-
-    return $this->render("articles/show", ["myVar" => $var]);
-}
-}  
-
-
-</br>
-</br>
-
-
-
-Now, when you'll render your template : </br>
-
-
-
-
-
-//templates/show.php
-
-<h1>I'm an article template</h1>
-
-<p> My var :
-
-  <?php
-     
-     echo '$myVar';
-
-  ?> 
-
-</br>
-</br>
 
 
   Magical, right?
@@ -167,33 +125,26 @@ Now, when you'll render your template : </br>
 
   </br>
   </br>
+  </br>
+  </br>
 
   
 
-  <h3>SupperOrm</h3>
+
+  <h3>SuperOrm</h3> </br>
 
 
-   You can reach the superOrm class anywhere you want within your function
+   You can reach the superOrm class anywhere you want within your function :   </br> </br>
 
- 
-     $superOrm = $this->getSuperOrm();  
- 
-       </br>
-  <h3>SupperOrm</h3>
-
-
-     Now, you can know more 
-
-
-     <h3>Entity Manager</h3>
+   <img class="docImgSmall" src="public/assets/img/controllers5.PNG">   </br>  </br>
 
 
 
-     You can also reach the entity manager like this </br> </br>
+     To learn more about the superOrm, visit the <a href="<?php echo rootUrl ?>superOrm"> dedicated section</a>.   </br>  </br>  </br>   </br>
 
 
-     $entityManager = $this->getEntityManager();  
-    
+   </div>
+
 
    </br>
    </br>

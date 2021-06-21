@@ -1,11 +1,15 @@
  </br>
 
-<h2>Install the framework</h2> </br></br>
+ <div class="textBlock">
+
+  
+ 
+<h1>Install the framework</h1> </br>
 
 
 You can download the project there : </br>
 
-<a href="#">www.github.com/MikeFramework </a> </br></br>
+<a class="githubLink" href="#">www.github.com/MikeFramework </a> </br></br></br>
 
 
 
@@ -15,8 +19,8 @@ You can download the project there : </br>
 
 This project comes with a console component,  with a series of commands, listed there : </br> </br>
 
+<a class="githubLink" href="#">www.github.com/MikeFramework/doc/doc.txt </a> </br></br>
 
-<a href="#">www.github.com/MikeFramework/doc/console/commands.txt </a> </br></br>
 
 
 Here are a few of those : </br> </br>
@@ -47,10 +51,10 @@ The .htacces of the framework is initially setup to redirect all requests to the
 
 
 
-//index.php  </br></br>
+<div class="indexImg">//index.php </br></br></div> 
 
 
-<img src="public/assets/img/indexImg.PNG">
+<img class="indexImg" class="docImg" src="public/assets/img/indexImg.PNG">
 
 </br></br> </br>
 
@@ -81,13 +85,13 @@ This framework follows implements PSR7 reglementation. </br>
 Here is an example to understand the autoloading architecture of this app : </br></br>
 
 
-    <img src="public/assets/img/getStarted1.PNG"> </br>
+    <img class="docImg" src="public/assets/img/getStarted1.PNG"> </br>
 
 
 
   Now, imagine you run the following script in your index.php file </br></br>
  
-  <img src="public/assets/img/getStarted2.PNG"> </br>
+  <img class="docImg" src="public/assets/img/getStarted2.PNG"> </br>
 
 
 
@@ -106,4 +110,6 @@ Here is an example to understand the autoloading architecture of this app : </br
 
 
 
-</br></br></br></br></br>
+ </div>
+
+

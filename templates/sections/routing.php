@@ -1,5 +1,7 @@
 </br>
 
+<div class="textBlock">
+
 The Routing system is the cornerstone of this framework. </br></br>
 
 Like stated in the <a href="#">get started </a> section, using the htaccess file, all requests are redirected to your root folder. </br></br>
@@ -11,7 +13,7 @@ Like stated in the <a href="#">get started </a> section, using the htaccess file
 
    Let's create a controller called : Welcome Controller. </br> </br>
 
-   <img src="public/assets/img/routing1.PNG"> </br>
+   <img class="docImgSmall" src="public/assets/img/routing1.PNG"> </br>
 
 
   Let's also create a very simple welcome template.
@@ -26,7 +28,7 @@ Like stated in the <a href="#">get started </a> section, using the htaccess file
   You need to register your routes in the routeArray, that you can find in the "Routes.php" file (for now, the array is totally empty). </br>
 
 
-   <img src="public/assets/img/routing2.PNG"> </br>
+   <img class="docImgSmall" src="public/assets/img/routing2.PNG"> </br>
 
 
 
@@ -64,6 +66,7 @@ Like stated in the <a href="#">get started </a> section, using the htaccess file
 
   Finally, the <b>"parameters"</b> attribute refers to the parameters to pass to the method we just mentioned (it can be empty). </br> </br>
   
+</div>
 
   </br></br></br>
 

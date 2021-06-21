@@ -1,4 +1,8 @@
 </br>
+
+<div class="textBlock">
+
+
 <h1>Super Orm</h1>
 
 </br></br></br>
@@ -61,3 +65,6 @@ Here is the list of the repository's methods : </br></br>
 
  <a href="#">www.github.com/michaelmga/MikeFramework/doc/entityManager/methods.txt </a> </br></br></br></br>
 
+
+
+</div>

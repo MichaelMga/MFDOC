@@ -11,19 +11,47 @@ button{
     cursor:pointer;
 }
 
-
-
 #navBar{
+
     position:fixed;
     top:0;
     left:0;
-    width: 15%;
+    width: 15vw;
     height: 100%;
-    background:rgb(31, 30, 30);
+    background:rgb(17, 21, 62);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+
+}
+
+
+#navBarLogo{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#logoImg{
+
+    height: 60%;
+    width: auto;
+}
+
+#navBarLinks{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 
@@ -48,29 +76,31 @@ button{
     height: 100%;
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     margin-right:5.5%;
+    font-size: 1.5vw;
 }
 
 .navbarImgContainer{
     height:100%;
-    width: 50%;
+    width: 30%;
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-left:5%;
 }
 
 .startImg{
     height: auto;
-    width: 60%;
+    width: 85%;
     margin-left: 15%;
 }
 
 
 .superImg{
     height: auto;
-    width: 35%;
+    width: 45%;
     margin-left: 15%;
 
 
@@ -100,7 +130,112 @@ main{
     top:0%;
     left:15.5%;
     height: 90%;
-    width: 84.5%;
+    width: 84.5vw;
     font-family: 'Marcellus', serif;
    }
+
+
+
+   .docImg{
+
+     width: 45%;
+     height: auto;
+   }
+
+   .docImgSmall{
+
+    width: 30%;
+    height: auto;
+
+   }
+
+
+
+   /* mobile */
+
+
+   @media all and (max-width: 800px){
+
+    
+      #logoImg{
+
+       height: auto;
+       width: 70%;
+
+     }
+
+
+     .indexImg{
+
+        display:none;
+     }
+
+
+     .textBlock{
+
+        height: 10%;
+        width: 80%;
+     }
+
+
+     .githubLink{
+             
+        font-size: 3.5vw;
+
+     }
+
+     .docImg{
+        width: 95%;
+        height: auto;
+      }
+
+      .docImgSmall{
+
+       width: 70%;
+       height: auto;
+
+      }
+
+
+      .navBarA{
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navbarImgContainer{
+        width: 100%;
+      }
+
+      .navBarText{
+         display:none;
+      }
+
+
+    
+    .startImg {
+        width: 100%;
+        margin-left: 17.5%;
+    }
+
+    .routingImg{
+        margin-left: 15%;
+        width: 62.5%;
+    }
+
+
+    .superImg{
+        width: 60%;
+        margin-left: 17.5%;
+    }
+
+
+    .controllerImg {
+        height: auto;
+        width: 57.5%;
+        margin-left: 15%;
+    }
+   
+
+
+ }
 
